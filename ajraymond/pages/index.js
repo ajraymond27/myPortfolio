@@ -9,7 +9,7 @@ const main ={
   backgroundImage: 'url("./violet.jpg")',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
-  minHeight: '98vh',
+  minHeight: '81vh',
 }
 
 const content ={
@@ -40,11 +40,15 @@ export default function Home() {
       <Head>
         <title>Anthony Raymond</title>
       </Head>
+      <Header />
       <main style={main}>
-        <Header />
         <div style={content}>
-          <h1>Anthony Raymond</h1>
-          <p>innovator, data analyst, artist</p>
+          <h2>Anthony Raymond</h2>
+          <span>when tech meets art,</span><br/>
+          <span>an idealist innovator</span><br/>
+          <span>seeks to save the world</span>
+
+          <p></p>
           <Link href="/tech"><button style={button}>Technology Projects</button></Link>
           <Link href="/art"><button style={button}>Artisitic Projects</button></Link>
 

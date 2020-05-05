@@ -19,6 +19,12 @@ body {
   box-sizing: border-box;
 }
 
+h4 {
+  color: var(--base1);
+  text-align: center;
+  margin-top: 20px;
+}
+
 
   /* Scrollbar Styles */
   /* width */
