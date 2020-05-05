@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import Link from '../components/NavLink';
 import Footer from '../components/Footer';
 
-
 const main ={
   backgroundImage: 'url("./violet.jpg")',
   backgroundRepeat: 'no-repeat',
