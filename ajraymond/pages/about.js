@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header';
-
+import Footer from '../components/Footer';
 
 const main ={
 
@@ -24,7 +24,7 @@ export default function Home() {
       </main>
 
       <footer>
-
+        <Footer />
       </footer>
     </div>
   )

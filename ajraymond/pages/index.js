@@ -43,8 +43,8 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
-          <h2>Anthony Raymond</h2>
-          <span>when tech meets art,</span><br/>
+          <h2>Anthony Joseph Raymond</h2>
+          <span>when tech meets art</span><br/>
           <span>an idealist innovator</span><br/>
           <span>seeks to save the world</span>
 

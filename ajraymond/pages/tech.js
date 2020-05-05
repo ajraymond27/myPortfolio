@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Header from '../components/Header';
+import CardGroups from '../components/CardGroups';
 
 
 const main ={
@@ -26,13 +26,30 @@ const white={
   color: '#fff',
 }
 
-const card ={
-  minWidth: '30%',
-  margin: 5,
-}
+
+
+
+
+
+// function App() {
+
+//   return (
+//     <>
+//       <Button variant="primary" onClick={() => setModalShow(true)}>
+//         Launch vertically centered modal
+//       </Button>
+
+//       <Popup
+//         show={modalShow}
+//         onHide={() => setModalShow(false)}
+//       />
+//     </>
+//   );
+// }
 
 
 export default function Home() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="container">
       <Head>
@@ -56,97 +73,11 @@ export default function Home() {
         <p>AWS, DigitalOcean, Vercel, Git, VS Code, Jupyter, Postman, Slack</p>
       </div>
 
-        <h4>Data Science</h4>
-        <CardGroup>
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-      </CardGroup>
-
-      <h4>UI / UX</h4>
-      <CardGroup>
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={card}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-      </CardGroup>
-
-
+      <CardGroups />
       </main>
 
       <footer>
-
+        <Footer />
       </footer>
     </div>
   )
