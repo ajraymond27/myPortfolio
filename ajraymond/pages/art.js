@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 import Header from '../components/Header';
 import VidScroller from '../components/VidScroller';
-
+import ImgGallery from '../components/ImgGallery';
 
 const main ={
 
@@ -24,6 +24,7 @@ export default function Home() {
       <main style={main}>
         <div style={content}>
           <VidScroller />
+          <ImgGallery />
         </div>
       </main>
 
