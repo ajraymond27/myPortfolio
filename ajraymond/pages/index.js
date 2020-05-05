@@ -1,13 +1,15 @@
+import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header';
-import { useRouter } from 'next/router';
+import Link from '../components/NavLink';
+import Footer from '../components/Footer';
 
 
 const main ={
   backgroundImage: 'url("./violet.jpg")',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
-  minHeight: '95vh',
+  minHeight: '98vh',
 }
 
 const content ={
@@ -18,45 +20,42 @@ const content ={
   textAlign: 'center',
   color: '#fff',
   padding: 10,
+  width: '100%',
+}
 
+const button ={
+  background: '#fff',
+  borderRadius: '10px',
+  border: 'none',
+  color: 'var(--base2)',
+  fontWeight: 'bold',
+  width: 250,
+  padding: 15,
+  margin: 10,
 }
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Hello Universe</title>
+        <title>Anthony Raymond</title>
       </Head>
       <main style={main}>
         <Header />
         <div style={content}>
           <h1>Anthony Raymond</h1>
-          <h2>innovator, data analyst, artist</h2>
+          <p>innovator, data analyst, artist</p>
+          <Link href="/tech"><button style={button}>Technology Projects</button></Link>
+          <Link href="/art"><button style={button}>Artisitic Projects</button></Link>
+
         </div>
       </main>
 
       <footer>
-
+        <Footer />
       </footer>
-
-      <style jsx>{`
-
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   )
 }
+
+

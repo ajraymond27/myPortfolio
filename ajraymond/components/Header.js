@@ -1,14 +1,15 @@
-import { useRouter } from 'next/router'
+import React from 'react';
+import Link from './NavLink';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 
 
 const navbar ={
-  backgroundColor: 'var(--white)',
+  background: '#fff',
 }
 
 const logo = {
-  color: 'black',
+  color: 'var(--base2)',
   fontWeight: 'bold',
   fontSize: '24pt',
 }
@@ -29,30 +30,3 @@ export default function Header() {
         </Navbar>
     )
 }   
-
-
-const Link = ({ children, href }) => {
-    const router = useRouter()
-    return (
-      <a
-        href="#"
-        onClick={e => {
-          e.preventDefault()
-          // typically you want to use `next/link` for this usecase
-          // but this example shows how you can also access the router
-          // and use it manually
-          router.push(href)
-        }}
-      >
-        {children}
-        <style jsx>{`
-          a {
-            margin-right: 50px;
-            color: var(--base1);
-            font-size: 14pt;
-            font-weight: bold;
-          }
-        `}</style>
-      </a>
-    )
-  }
