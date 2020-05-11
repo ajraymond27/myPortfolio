@@ -14,6 +14,11 @@ const content ={
 
 }
 
+const intro ={
+  textAlign: 'center',
+  color: 'var(--base2)',
+}
+
 export default function Home() {
   return (
     <div className="container">
@@ -22,6 +27,9 @@ export default function Home() {
       </Head>
       <Header />
       <main style={main}>
+        <h4>Art</h4>
+        <p style={intro}>all beauty stems from nature</p>
+        <p style={intro}>so I go straight to the source</p>
         <div style={content}>
           <VidScroller />
           <ImgGallery />

@@ -16,7 +16,7 @@ export default class Video extends Component {
       <>
         <h4></h4>
         <div className="reel">
-          <ReactPlayer style={vid} url="https://www.youtube.com/watch?v=ysz5S6PUM-U" loop controls width={'100%'} height={'100%'}/>
+          <ReactPlayer style={vid} url={this.props.videos.youtube} loop controls width={'100%'} height={'100%'}/>
         </div>
 
         <style jsx>{`

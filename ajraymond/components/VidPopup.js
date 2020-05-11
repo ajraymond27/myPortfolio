@@ -16,7 +16,7 @@ function Content(props) {
     >
       <Modal.Header closeButton style={modal} />
       <Modal.Body style={modal}>
-          <Video />
+          <Video videos={props.videos}/>
       </Modal.Body>
     </Modal>
   );
@@ -27,10 +27,10 @@ export default function Popup(props) {
 
   return (
     <>
-      <img  onClick={() => setModalShow(true)} src='/violet.jpg' className='coverImg'/>
+      <img  onClick={() => setModalShow(true)} src={props.videos.coverImg} className='coverImg'/>
 
       <Content
-        client = {props.client}
+        videos = {props.videos}
         show={modalShow}
         onHide={() => setModalShow(false)}
       />

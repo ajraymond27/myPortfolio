@@ -33,6 +33,11 @@ const button ={
   margin: 10,
 }
 
+const aj = {
+  width: '150px',
+  borderRadius: 75,
+  border: 'solid 3px #fff',
+}
 export default function Home() {
   return (
     <div className="container">
@@ -42,10 +47,11 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
+          <img src='./aj.jpg' style={aj}></img>
           <h2>Anthony Joseph Raymond</h2>
           <span>when tech meets art</span><br/>
           <span>an idealist innovator</span><br/>
-          <span>seeks to save the world</span>
+          <span>seeks to change the world</span>
 
           <p></p>
           <Link href="/tech"><button style={button}>Technology Projects</button></Link>

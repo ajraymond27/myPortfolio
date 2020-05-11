@@ -1,10 +1,14 @@
 import React from 'react';
 import VidPopup from './VidPopup';
+import videos from '../data/videos';
 
 export default class VidScroller extends React.Component {
     constructor(props) {
-      super(props);
-    }
+        super (props);
+        this.state = {
+          videos
+        }
+      }
     
   
     render() {
@@ -12,12 +16,9 @@ export default class VidScroller extends React.Component {
             <div className="strip">
             <h4>Video</h4>
             <div className="grid-container">
-                <VidPopup />
-                <VidPopup />
-                <VidPopup />
-                <VidPopup />
-                <VidPopup />
-                <VidPopup />
+                {this.state.videos.map((videos) => (
+                    <VidPopup videos={videos} />
+                ))}
 
                 <style jsx>{`
                     /* desktop */

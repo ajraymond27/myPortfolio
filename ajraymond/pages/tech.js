@@ -12,12 +12,13 @@ const main ={
 
 const intro ={
   textAlign: 'center',
-  color: 'var(--base1)',
+  color: 'var(--base2)',
 }
 
 const skills = {
   background: 'var(--orange)',
-  padding: 20,
+  opacity: '100%',
+  padding: 10,
   color: '#fff',
   textAlign: 'center',
 }
@@ -51,13 +52,15 @@ export default class Home extends React.Component {
 
       <div style={skills}>
         <h4 style={white}>Programming and Scripting </h4>
-        <p>Python, JS, Java, HTML5, CSS3</p>
+        <p>Python, JS, HTML5, CSS3</p>
         <h4 style={white}>Analytics </h4>
         <p>Scikit-learn, TensorFlow, NLTK, Matplotlib, R, Tableau, Excel, SPSS Modeler</p>
         <h4 style={white}>Databases </h4>
         <p>MySQL</p>
         <h4 style={white}>Tools and Platforms </h4>
         <p>AWS, DigitalOcean, Vercel, Git, VS Code, Jupyter, Postman, Slack</p>
+        <h4 style={white}>Soft Skills </h4>
+        <p>Design Thinking, UX Testing, Agile, Idea Pitching, Innovation</p>
       </div>
       {this.state.tech.map((tech) => (
             <CardGroups tech={tech} />
