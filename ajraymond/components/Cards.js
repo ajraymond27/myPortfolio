@@ -13,16 +13,16 @@ export default function Cards(props) {
         <>
         <Card style={card} onClick={() => setModalShow(true)}>
             <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>{props.project.project}</Card.Title>
             <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                {props.project.brief}
             </Card.Text>
             </Card.Body>
         </Card>
         <CardPopup
             show={modalShow}
             onHide={() => setModalShow(false)}
+            project = {props.project}
         />
       </>
     )

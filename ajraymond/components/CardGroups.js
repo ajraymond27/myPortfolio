@@ -5,9 +5,12 @@ import Cards from './Cards';
 export default function CardGroups(props) {
     return (
         <>
-        <h4>Data Science</h4>
+        <h4>{props.tech.class}</h4>
+
         <CardGroup>
-          <Cards />
+          {props.tech.projects.map((tech) => (
+              <Cards project={tech} />
+            ))}
         </CardGroup>
       </>
     )
