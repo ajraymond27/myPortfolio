@@ -14,6 +14,10 @@ const logo = {
   fontSize: '24pt',
 }
 
+// const link = {
+//     margin: '50px',
+// }
+
 export default function Header() {
     return (
         <Navbar collapseOnSelect expand="lg" sticky="top" style={navbar}>
