@@ -8,7 +8,7 @@ const main ={
   backgroundImage: 'url("./violet.jpg")',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
-  minHeight: '81vh',
+  minHeight: '87vh',
 }
 
 const content ={
@@ -31,24 +31,19 @@ const button ={
   width: 250,
   padding: 15,
   margin: 10,
+  textAlign: 'center',
 }
 
-const aj = {
-  width: '150px',
-  borderRadius: 75,
-  border: 'solid 3px #fff',
-}
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Anthony Raymond</title>
+        <title>A.J. Raymond</title>
       </Head>
       <Header />
       <main style={main}>
         <div style={content}>
-          <img src='./aj.jpg' style={aj}></img>
-          <h2>Anthony Joseph Raymond</h2>
+          <h2>A.J. Raymond</h2>
           <span>when tech meets art</span><br/>
           <span>an idealist innovator</span><br/>
           <span>seeks to change the world</span>
