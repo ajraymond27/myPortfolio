@@ -47,8 +47,7 @@ export default class Home extends React.Component {
       <main style={main}>
 
       <h2>Technology</h2>
-      <p style={intro}>simply visualize complex analytics</p>
-      <p style={intro}>face consistent challenges with bold innovation</p>
+      <p style={intro}>Through independent, volunteer, and freelance projects, I have been building my tech skills over the past year </p>
 
       <div style={skills}>
         <h4 style={white}>Programming and Scripting </h4>

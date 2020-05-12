@@ -23,13 +23,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Art</title>
+        <title>Photography</title>
       </Head>
       <Header />
       <main style={main}>
-        <h2>Art</h2>
-        <p style={intro}>all beauty stems from nature</p>
-        <p style={intro}>so I go straight to the source</p>
+        <h2>Photography</h2>
+        <p style={intro}>As a hobby, I enjoy hiking in the wilderness with my camera and friends</p>
         <div style={content}>
           <VidScroller />
           <ImgGallery />

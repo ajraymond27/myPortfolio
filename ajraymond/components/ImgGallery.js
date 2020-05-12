@@ -7,7 +7,7 @@ import { photos } from "../data/photos";
 export default function ImgGallery () {
     return (
         <>
-        <h4>Photography</h4>
+        <h4>Photo</h4>
         <Gallery photos={photos} />
         </>
     )

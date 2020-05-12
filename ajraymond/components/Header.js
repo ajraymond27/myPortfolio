@@ -27,7 +27,7 @@ export default function Header() {
                 <Nav>
                     <Link href="/" >Home</Link>
                     <Link href="/tech" >Technology</Link>
-                    <Link href="/art" >Art</Link>
+                    <Link href="/art" >Photography</Link>
                     <Link href="/about" >About</Link>
                 </Nav>
             </Navbar.Collapse>

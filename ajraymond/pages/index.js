@@ -38,19 +38,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>A.J. Raymond</title>
+        <title>AJ Raymond</title>
       </Head>
       <Header />
       <main style={main}>
         <div style={content}>
-          <h1>A.J. Raymond</h1>
-          <span>when tech meets art</span><br/>
-          <span>an idealist innovator</span><br/>
-          <span>seeks to change the world</span>
+          <h1>AJ Raymond</h1>
+          <p> - Technical Innovator</p>
 
-          <p></p>
-          <a href="/tech"><button style={button}>Technology Projects</button></a>
-          <a href="/art"><button style={button}>Artisitic Projects</button></a>
+          <a href="/tech"><button style={button}>Technology</button></a>
+          <a href="/art"><button style={button}>Photography</button></a>
 
         </div>
       </main>
