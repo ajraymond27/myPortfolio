@@ -29,8 +29,8 @@ const button ={
   color: 'var(--base2)',
   fontWeight: 'bold',
   width: '250px',
-  // padding: 15,
-  // margin: 10,
+  padding: 15,
+  margin: 10,
   textAlign: 'center',
 }
 

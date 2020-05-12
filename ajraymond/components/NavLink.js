@@ -17,7 +17,6 @@ export default function Link ({ children, href }) {
         {children}
         <style jsx>{`
           a {
-            margin-right: 20px;
             color: var(--base2);
             font-size: 14pt;
             font-weight: bold;
