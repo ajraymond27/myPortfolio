@@ -49,8 +49,8 @@ export default function Home() {
           <span>seeks to change the world</span>
 
           <p></p>
-          <Link href="/tech"><button style={button}>Technology Projects</button></Link>
-          <Link href="/art"><button style={button}>Artisitic Projects</button></Link>
+          <a href="/tech"><button style={button}>Technology Projects</button></a>
+          <a href="/art"><button style={button}>Artisitic Projects</button></a>
 
         </div>
       </main>
