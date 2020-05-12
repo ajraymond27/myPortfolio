@@ -15,7 +15,7 @@ const content ={
   position: 'absolute',
   top: '50%',
   left: '50%',
-  transform: 'translate(-50%, -50%)',
+  transform: 'translate(-50%, -15%)',
   textAlign: 'center',
   color: '#fff',
   padding: 10,
@@ -43,7 +43,7 @@ export default function Home() {
       <Header />
       <main style={main}>
         <div style={content}>
-          <h2>A.J. Raymond</h2>
+          <h1>A.J. Raymond</h1>
           <span>when tech meets art</span><br/>
           <span>an idealist innovator</span><br/>
           <span>seeks to change the world</span>

@@ -16,7 +16,7 @@ const content ={
 
 const intro ={
   textAlign: 'center',
-  color: 'var(--base2)',
+  color: 'var(--base3)',
 }
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <Header />
       <main style={main}>
-        <h4>Art</h4>
+        <h2>Art</h2>
         <p style={intro}>all beauty stems from nature</p>
         <p style={intro}>so I go straight to the source</p>
         <div style={content}>

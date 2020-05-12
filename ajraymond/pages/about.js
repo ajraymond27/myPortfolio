@@ -46,8 +46,8 @@ export default function Home() {
         <Header />
         <div style={content}>
           <img src='./aj.jpg' style={aj}/>
-          <h4>A.J. Raymond</h4>
-          <p>Technical innovator with 2 years experience in both professional and freelance environments. Proven ability to extract features from complex datasets, tune machine learning models, and visualize new discoveries to present in an easy-to-understand format. Seeking a technical role as a data analyst or software developer for a company where consistent challenges are faced with bold innovation.</p>
+          <h2>A.J. Raymond</h2>
+          <p style={{color: 'var(--base3)'}}>Technical innovator with 2 years experience in both professional and freelance environments. Proven ability to extract features from complex datasets, tune machine learning models, and visualize new discoveries to present in an easy-to-understand format. Seeking a technical role as a data analyst or software developer for a company where consistent challenges are faced with bold innovation.</p>
           <h4>Education</h4>
 
           <CardGroup>

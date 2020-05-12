@@ -12,7 +12,7 @@ const main ={
 
 const intro ={
   textAlign: 'center',
-  color: 'var(--base2)',
+  color: 'var(--base3)',
 }
 
 const skills = {
@@ -46,7 +46,7 @@ export default class Home extends React.Component {
       <Header />
       <main style={main}>
 
-      <h4>Technology</h4>
+      <h2>Technology</h2>
       <p style={intro}>simply visualize complex analytics</p>
       <p style={intro}>face consistent challenges with bold innovation</p>
 
