@@ -44,7 +44,7 @@ export default function Home() {
       <main style={main}>
         <div style={content}>
           <h1>AJ Raymond</h1>
-          <p> - Technical Innovator</p>
+          <p>Technical Innovator</p>
 
           <a href="/tech"><button style={button}>Technology</button></a>
           <a href="/art"><button style={button}>Photography</button></a>
