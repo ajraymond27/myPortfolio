@@ -15,7 +15,7 @@ export const photos = [
       height: 3
     },
     {
-      src: "bluebird.jpg",
+      src: "bluebird.jpg", 
       width: 4,
       height: 3
     },
@@ -46,7 +46,7 @@ export const photos = [
     },
     {
       src: "log.jpg",
-      width: 5,
+      width: 4,
       height: 3
     },
     {
