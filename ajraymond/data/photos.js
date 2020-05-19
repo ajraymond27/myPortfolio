@@ -14,11 +14,11 @@ export const photos = [
       width: 5,
       height: 3
     },
-    {
-      src: "bluebird.jpg", 
-      width: 4,
-      height: 3
-    },
+    // {
+    //   src: "bluebird.jpg", 
+    //   width: 4,
+    //   height: 3
+    // },
     {
       src: "orangeFungus.jpg",
       width: 5,
