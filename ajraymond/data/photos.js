@@ -1,6 +1,6 @@
 export const photos = [
     {
-      src: "./yellowflower.jpg",
+      src: "./yellowFlower.jpg",
       width: 4,
       height: 2
     },
@@ -20,7 +20,7 @@ export const photos = [
       height: 3
     },
     {
-      src: "orangefungus.jpg",
+      src: "orangeFungus.jpg",
       width: 5,
       height: 3
     },
@@ -30,7 +30,7 @@ export const photos = [
       height: 3
     },
     {
-      src: "yellowfungus.jpg",
+      src: "yellowFungus.jpg",
       width: 5,
       height: 3
     },
