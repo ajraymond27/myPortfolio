@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 const modal ={
     border: 'none',
     backgroundColor: '#000',
-    align: 0,
+    align: 'top',
 }
 
 function Content(props) {
