@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 const modal ={
     border: 'none',
+    backgroundColor: '#000',
 }
 
 function Content(props) {
@@ -13,6 +14,7 @@ function Content(props) {
       size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      style={modal}
     >
       <Modal.Header closeButton style={modal} />
       <Modal.Body style={modal}>
