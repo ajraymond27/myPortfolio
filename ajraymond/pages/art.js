@@ -11,6 +11,7 @@ const main ={
 }
 
 const content ={
+  width: '100%'
 
 }
 
