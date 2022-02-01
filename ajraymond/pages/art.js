@@ -36,7 +36,7 @@ export default function Home() {
         <h2>AR</h2>
         <div>
           <a rel="ar" href="https://developer.apple.com/augmented-reality/quick-look/models/cosmonaut/CosmonautSuit_en.reality">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" style={content}/>
           </a>
         </div>
       </main>
