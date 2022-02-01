@@ -28,12 +28,12 @@ export default function Home() {
       </Head>
       <Header />
       <main style={main}>
-        <h2>Photography</h2>
+        {/* <h2>Photography</h2>
         <p style={intro}>As a hobby, I enjoy hiking in the wilderness with my camera and friends</p>
         <div style={content}>
           <VidScroller />
           <ImgGallery />
-        </div>
+        </div> */}
         <h2>AR</h2>
         <div>
           <a rel="ar" href="https://developer.apple.com/augmented-reality/quick-look/models/cosmonaut/CosmonautSuit_en.reality">
