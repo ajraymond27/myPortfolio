@@ -35,9 +35,9 @@ export default function Home() {
         </div>
         <h2>AR</h2>
         <div>
-            <a rel="ar" href="ajraymond/public/tv_retro.usdz">
-              <img src="ajraymond/public/holymtn.jpg"/>
-            </a>
+          <a rel="ar" href="https://developer.apple.com/augmented-reality/quick-look/models/cosmonaut/CosmonautSuit_en.reality">
+            <img src="ajraymond/public/holymtn.jpg"/>
+          </a>
         </div>
       </main>
 
