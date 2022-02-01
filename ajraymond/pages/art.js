@@ -33,6 +33,12 @@ export default function Home() {
           <VidScroller />
           <ImgGallery />
         </div>
+        <h2>AR</h2>
+        <div>
+            <a rel="ar" href="ajraymond/public/tv_retro.usdz">
+              <img src="ajraymond/public/holymtn.jpg"/>
+            </a>
+        </div>
       </main>
 
       <footer>
